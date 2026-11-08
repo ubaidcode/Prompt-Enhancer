@@ -10,7 +10,7 @@ from groq import Groq
 # ============================================================
 
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
-GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_MODEL = "gemini-3.6-flash"
 
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 GROQ_MODEL = "openai/gpt-oss-120b"
